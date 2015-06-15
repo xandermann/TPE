@@ -1,0 +1,7 @@
+[submodule "lib/jquery"]
+	path = lib/jquery
+	url = https://github.com/jquery/codeorigin.jquery.com.git
+[submodule "lib/fullpage"]
+	path = lib/fullpage
+	url = https://github.com/alvarotrigo/fullPage.js.git
+	tag = 2.7.6

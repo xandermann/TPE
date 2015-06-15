@@ -1,0 +1,134 @@
+#menu li a,
+button {
+    text-decoration: none
+}
+
+code,
+input {
+    display: block
+}
+
+#menu,
+noscript {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.section,
+input,
+noscript {
+    text-align: center
+}
+
+#menu li {
+    display: inline-block;
+    margin: 10px;
+    color: #000;
+    background: #fff;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 10px
+}
+
+#menu li.active {
+    background: #666;
+    background: rgba(0, 0, 0, .5);
+    color: #fff
+}
+
+#menu li a,
+#menu li.active a:hover {
+    color: #000
+}
+
+#menu li.active a,
+button {
+    color: #fff
+}
+
+#menu li:hover {
+    background: rgba(255, 255, 255, .8)
+}
+
+#menu li a,
+#menu li.active a {
+    padding: 9px 18px;
+    display: block
+}
+
+#menu {
+    height: 40px;
+    z-index: 70;
+    padding: 0;
+    margin: 0
+}
+
+.fp-slidesNav {
+    margin-bottom: 35px
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #7BAABE
+}
+
+a:link,
+a:visited {
+    color: #701212
+}
+
+::-moz-selection {
+    background: #FEA97F;
+    color: #000
+}
+
+::selection {
+    background: #FEA97F;
+    color: #000
+}
+
+.section {
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 100px
+}
+
+h2 {
+    font-size: 1.2em
+}
+
+input {
+    margin: auto;
+    font-size: 30px;
+    width: 70%
+}
+
+ul {
+    list-style-type: none
+}
+
+button {
+    border-radius: 60px;
+    font-family: Arial;
+    font-size: 20px;
+    background: #1e5980;
+    padding: 10px 20px
+}
+
+code {
+    font-size: 50%
+}
+
+noscript {
+    height: 100%;
+    background-color: red;
+    font-size: 300%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
